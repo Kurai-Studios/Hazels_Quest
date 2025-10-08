@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_player_status_3bars_version2_0: -7418046157436900962
+      spr_player_status_3bars_version2_1: 7571091730700319166
+      spr_player_status_3bars_version2_2: -6914915656149021794
+      spr_player_status_3bars_version2_3: 4756071859482009152
+      spr_player_status_3bars_version2_4: -1536442809869645375
+      spr_player_status_3bars_version2_5: 7088612141204673739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

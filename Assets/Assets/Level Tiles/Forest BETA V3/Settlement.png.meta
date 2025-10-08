@@ -1184,7 +1184,50 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Settlement_0: 6372834663926679618
+      Settlement_1: 8662409173835163614
+      Settlement_10: -5261332476192287862
+      Settlement_11: 5772746720701120535
+      Settlement_12: -9088019873490319381
+      Settlement_13: -4646466544254608689
+      Settlement_14: -4868463169431553418
+      Settlement_15: -6110250208258225043
+      Settlement_16: 2133669116615783073
+      Settlement_17: -688413475278804042
+      Settlement_18: -8256849050209937093
+      Settlement_19: 3631399457200130634
+      Settlement_2: -8316591577905672428
+      Settlement_20: 2371488120470281089
+      Settlement_21: -9106404915471330485
+      Settlement_22: -7322166443784948505
+      Settlement_23: 7273085392358603173
+      Settlement_24: -8081728131085911734
+      Settlement_25: -2603545588625312879
+      Settlement_26: 5159293044542619248
+      Settlement_27: -549207886615377065
+      Settlement_28: -4449340900983224057
+      Settlement_29: -147409774134913100
+      Settlement_3: 6755533028699559973
+      Settlement_30: -8924040751958812995
+      Settlement_31: -7974756611987829323
+      Settlement_32: 2654446387025840911
+      Settlement_33: 2240755872230907849
+      Settlement_34: 1513433985158868328
+      Settlement_35: -725304162721947214
+      Settlement_36: 5893837042469303959
+      Settlement_37: 1143894365410674232
+      Settlement_38: 2237919841505984082
+      Settlement_39: 5329651235121242273
+      Settlement_4: 2808033777026571738
+      Settlement_40: 4466378577173978188
+      Settlement_41: -7656395607466416025
+      Settlement_42: -8325530835661667429
+      Settlement_5: 3531364331318792298
+      Settlement_6: 3418321548041976404
+      Settlement_7: -83583102288036313
+      Settlement_8: 6832828071515567000
+      Settlement_9: -6436659057829914853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

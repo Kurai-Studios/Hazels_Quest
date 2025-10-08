@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_player_status_manabar_bk_0: 4126143428519613234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
