@@ -13,9 +13,13 @@ public class BRGenerator : MonoBehaviour
     [SerializeField] public int walkLength = 10;
     [SerializeField] public bool rndIterationStart = true;
 
+    [SerializeField] private TileVisualizer tileVisualizer;
+
     public void RunProceduralGeneration()
     {
         HashSet<Vector2Int> floorPositions = RunRandomWalk();
+        tileVisualizer.Clear();
+        tileVisualizer.PaintFloorTiles(floorPositions);
 
         foreach (var position in floorPositions)
         {
