@@ -1,16 +1,45 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BRGenerator : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] protected Vector2Int startPosition = Vector2Int.zero;
+
+    [SerializeField] private int iterations = 10;
+    [SerializeField] public int walkLength = 10;
+    [SerializeField] public bool rndIterationStart = true;
+
+    public void RunProceduralGeneration()
     {
-        
+        HashSet<Vector2Int> floorPositions = RunRandomWalk();
+
+        foreach (var position in floorPositions)
+        {
+            Debug.Log(position);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    protected HashSet<Vector2Int> RunRandomWalk()
     {
-        
+        var currentPosition = startPosition;
+        HashSet<Vector2Int> floorPositions = new HashSet<Vector2Int>();
+
+        for (int i = 0; i < iterations; i++)
+        {
+            var path = RndWalkAlgorithm.SimpleRndWalk(currentPosition, walkLength);
+            floorPositions.UnionWith(path);
+
+            if (rndIterationStart)
+            {
+                currentPosition = floorPositions.ElementAt(Random.Range(0, floorPositions.Count));
+            }
+        }
+
+        return floorPositions;
     }
 }
+   

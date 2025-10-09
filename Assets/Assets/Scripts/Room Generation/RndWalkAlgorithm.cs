@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public static class BossRoomGeneration
+public static class RndWalkAlgorithm
 {
     
     public static HashSet<Vector2Int> SimpleRndWalk(Vector2Int startPositionm, int walkLength)
